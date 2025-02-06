@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina completa</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="./assets/img/logo.svg" alt="" />
+        <h3>EPICODE - IL BLOG DEI DEVELOPERS</h3>
+
+        <div>
+          <i class="fas fa-arrow-right"></i>HOME<i
+            class="fas fa-arrow-left"
+          ></i>
+        </div>
+        <div>
+          <i class="fas fa-arrow-right"></i>ARTICOLI<i
+            class="fas fa-arrow-left"
+          ></i>
+        </div>
+        <div>
+          <i class="fas fa-arrow-right"></i>LAVORA CON
+          <i class="fas fa-arrow-left"></i>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h1>Come creare un template per i post</h1>
+
+      <h3>
+        <i class="fas fa-pencil-alt"></i>di Pietro Sorbo -
+        <i class="fas fa-clock"></i>pubblicato il 04/02/2025
+      </h3>
+      <p>
+        La prima cosa da fare è suddividere in blocchi la pagina, identificando
+        le <strong>parti comuni</strong> da applicare a tutte le pagine.
+      </p>
+      <div>
+        <p>Le varie aree saranno suddivise quindi in:</p>
+        <ul>
+          <li>Contenuti di intestazione del tag <span>&lt;header&gt;</span></li>
+          <li>
+            Contenuti centrali variabili del tag
+            <span>&lt;main&gt;&lpar;</span>corpo principale&rpar;
+          </li>
+          <li>
+            Contenuti di fine pagina comuni, da inserire nel tag
+            <span>&lt;footer&gt;</span>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h1>Formattazione del codice</h1>
+        <p>
+          Il testo dell'articolo dovrà essere formattato per identificare tutte
+          le parti da
+          <strong>selezionare con i CSS.</strong> Perciò i passi saranno:
+        </p>
+        <ol>
+          <li>
+            Progettare su carta il markup finale, assegnando ad ogni specifico
+            test il tag appropriato
+          </li>
+          <li>
+            Scrivere l'HTML dai tag esterni fino agli interni e dall'alto verso
+            il basso
+          </li>
+          <li>Applicare gli stili CSS</li>
+        </ol>
+      </div>
+      <h4>
+        La diffusione degl stili CSS è cresciuta negli anni fino a raggiungere
+        la diffusione pressochè totale.
+      </h4>
+      <thead>
+        <title>Diffusione dei CSS</title>
+      </thead>
+      <tbody>
+        <table>
+          <tr id="toptab">
+            <th>Anno</th>
+            <th>% di utilizzo</th>
+            <th>Supporto browser</th>
+          </tr>
+          <tr>
+            <th>2000</th>
+            <th>20%</th>
+            <th>17%</th>
+          </tr>
+          <tr>
+            <th>2002</th>
+            <th>35%</th>
+            <th>22%</th>
+          </tr>
+          <tr>
+            <th>2004</th>
+            <th>45%</th>
+            <th>42%</th>
+          </tr>
+          <tr>
+            <th>2008</th>
+            <th>80%</th>
+            <th>51%</th>
+          </tr>
+          <tr>
+            <th>2012</th>
+            <th>100%</th>
+            <th>76%</th>
+          </tr>
+        </table>
+      </tbody>
+      <p>
+        Un test di valutazione può essere fatto tramite il
+        <a href="https://www.csstools.org/">tool online</a>dedicato allo scopo.
+        Una volta ottimizzato il tutto, avremmo raggiunto il nostro obbietivo ed
+        essere stati dei veri developers come lui:
+      </p>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/qs7lka33skI?si=_m9zEMJbRX22kupg"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+
+      <div>
+        <h2>Novità!</h2>
+        <p>Vuoi rimanere aggiornato? Iscriviti alla nostra newsletter!</p>
+        <input type="email" />
+        <button>Iscriviti!</button>
+      </div>
+      <div>
+        <h2>Articoli correlati</h2>
+        <a href="https://w3schools.tech/it/tutorial/html/html_validation"
+          >Validare il coide HTML</a
+        >
+        <p>Categoria: develop</p>
+        <p>Data 18/09/2020</p>
+
+        <a href="https://toolset.mrw.it/html/html-fixer.html"
+          >Correggere la sintassi</a
+        >
+        <p>Categoria: develop</p>
+        <p>Data 16/09/2020</p>
+
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Performance/HTML"
+          >Meno kb nella pagina</a
+        >
+        <p>Categoria: ottimizzazione</p>
+        <p>Data 30/12/2021</p>
+      </div>
+    </main>
+    <footer>
+      Blog EPICODE 2025 Testata online di Mario Rossi, registrata con prot.
+      n.213/2018 - Via Luigi Einaudi 2, Milano. P.IVA 00112233
+      <a href="https://epicode.com/it/">info.epicode@school</a>
+    </footer>
+  </body>
+</html>
